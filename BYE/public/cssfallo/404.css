@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    background-image: url(../imgfallo/Fondo.PNG);
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 160px;
+}
+
+.error-container {
+    display: flex;
+    flex-direction: column;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+    animation: shake 0.5s ease-in-out 1;
+}
+
+h1 {
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+a{
+    background-color: #75CFB8;
+    font-size: 35px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img {
+    width: 200px;
+    animation: shake 0.5s ease-in-out 1;
+    border-radius: 20%;
+}
+
+
+@keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+      transform: translateX(-10px);
+    }
+    20%, 40%, 60%, 80%, 100% {
+      transform: translateX(10px);
+    }
+  }
+
+
+
+

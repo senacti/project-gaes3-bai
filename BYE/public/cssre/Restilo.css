@@ -1,0 +1,283 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Bebas Neue;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  background-image: url(../imagenes/Fondo.png);
+  display: flex;
+  margin: 80px 20px 80px 20px;
+  justify-content: center;
+  
+}
+
+.sec_uno{
+  background-color: #75CFB8;
+  border-radius: 25px;
+  padding-top: 50PX;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.sec_uno h1{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.sec_dos{
+  background-color: white;
+  border-radius: 25px;
+  padding-top: 50PX;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.tamaño{
+  width: 400px;
+  border-radius: 50px;
+  background-color: #BBDFC8;
+  padding-left: 30px;
+  border-color: #BBDFC8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.granueve{
+  width: 440px;
+  border-radius: 20px;
+  padding-bottom: 100px;
+  line-height: 45px;
+}
+
+.tituloNacer{
+  font-size: 25px;
+  color: rgb(235, 226, 226);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tituloTratar{
+  font-size: 25px;
+  color: rgb(235, 226, 226);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.comos{
+  text-align: center;
+}
+
+.usu{
+  margin-top: 60px;
+  width: 250px;
+  margin-bottom: 60px;
+}
+
+.boton{
+  font-size: 40px;
+  width: 200px;
+  color: aliceblue;
+  background-color: #FAAB78;
+  border-color: #FAAB78;
+  border-radius: 40px;
+  margin-top: 420px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  cursor: pointer;
+}
+
+.term{
+  font-size: 20px;
+  color: aliceblue;
+  margin-top: 40px;
+  margin-left: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tama{
+  font-size: 40px;
+}
+
+.spoon{
+  display: flex;
+}
+
+.spoon span{
+  background-color: #BBDFC8;
+  border-radius: 40px;
+  width: 390px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+ul{
+  font-size: 20px;
+}
+
+.opciones{
+  position: relative;
+  padding: 20px;
+  margin: 10px;
+  margin-left: 140px;
+  margin-right: 140px;
+  border-radius: 30px;
+  background-color: #F0E5D8;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+
+.opcion:hover{
+  background-color: #f7efef;
+  text-decoration: underline;
+  border-radius: 40px;
+}
+
+.texts{
+  padding-left: 30px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+i{
+  cursor: pointer;
+}
+
+.arewop{
+  width: 430px;
+}
+
+.este.activo .opciones{
+  display: block;
+}
+
+.formulario__grupo-input {
+	position: relative;
+}
+
+.formulario__input:focus {
+	border: 3px solid #000000;
+	outline: none;
+}
+
+.formulario__input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+}
+
+.formulario__input-error-activo {
+	display: block;
+}
+
+.formulario__validacion-estado {
+	position: absolute;
+  left: 390px;
+  bottom: 45px;
+	z-index: 100;
+	font-size: 16px;
+  opacity: 0;
+}
+
+.formulario__validacion-estadodos{
+  position: absolute;
+  left: 370px;
+  bottom: 45px;
+	z-index: 100;
+	font-size: 16px;
+  opacity: 0;
+}
+
+.formulario__checkbox {
+	margin-right: 10px;
+}
+
+.formulario__mensaje {
+	height: 45px;
+	line-height: 45px;
+	background: #F66060;
+	padding: 0 15px;
+  border-radius: 30px;
+	border-radius: 3px;
+  display: none;
+}
+
+
+
+.formulario__mensaje-activo {
+	display: block;
+}
+
+.formulario__mensaje-exito {
+	font-size: 27px;
+  color: rgb(0, 0, 0);
+  background-color: #BBDFC8;
+  text-align: center;
+  border-radius: 50px;
+  display: none;
+}
+
+.formulario__mensaje-exito-activo {
+	display: block;
+}
+
+/* correcto y no */
+
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario__grupo-correcto .formulario__validacion-estadodos {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+	color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estadodos {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid #bb2929;
+}
+
+.formulario__grupo-correcto .formulario__input {
+	border: 3px solid #1ed12d;
+}
+
+/*veer*/
+
+.showhidepw{
+  position: relative;
+  left: 390px;
+  color: rgb(71, 69, 69);
+  cursor: pointer;
+}
+
+.showhidepw:hover{
+  color: black;
+  cursor: pointer;
+}
